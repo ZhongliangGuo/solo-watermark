@@ -1,0 +1,17 @@
+# editor and OS clutter
+.DS_Store
+*~
+*.swp
+
+# Python byproducts
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# environments and secrets
+.venv/
+venv/
+.env

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solo-watermark"
+version = "0.1.0"
+description = "SOLO: sample-faithful and detectable LLM watermarking under repeated sampling"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+dependencies = ["torch>=2.1", "transformers>=4.56", "numpy>=1.24", "scipy>=1.10"]
+
+[tool.setuptools]
+packages = ["solo"]
